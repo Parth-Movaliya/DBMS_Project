@@ -1,0 +1,117 @@
+..................Address.....................
+
+
+
+
+INSERT INTO address (prop_id, street_number, address_line1, address_line2, city, state, postal_code, country, landmark)
+VALUES
+
+
+
+(12345678, '5', 'Sarjapur Main Road', 'Bellandur', 'Bangalore', 'Karnataka', '560103', 'India', 'Near Bellandur Lake'),
+(23456789, '14', 'Shanti Nagar', 'Sector 10A', 'Gurugram', 'Haryana', '122001', 'India', 'Opposite Medanta Hospital'),
+(34567890, '12A', 'Main Road', 'Sector 15A', 'Noida', 'Uttar Pradesh', '201301', 'India', 'Near Atta Market'),
+(56789012, '8', 'MG Road', 'Opposite Metro Station', 'Pune', 'Maharashtra', '411001', 'India', 'Near Camp Area'),
+(67890123, '20', 'Palarivattom - Edappally Road', 'Palarivattom', 'Kochi', 'Kerala', '682025', 'India', 'Near Lulu Mall'),
+(78901234, '19', 'Sardar Patel Road', 'Adyar', 'Chennai', 'Tamil Nadu', '600020', 'India', 'Near Adyar Signal'),
+(90123456, '110', 'Thousand Lights', 'Anna Salai', 'Chennai', 'Tamil Nadu', '600006', 'India', 'Near US Consulate'),
+(12348765, '24', 'Gandhi Bazaar Main Road', 'Basavanagudi', 'Bangalore', 'Karnataka', '560004', 'India', 'Near Basavanagudi Circle'),
+(23459876, '6', 'Park Road', 'Civil Lines', 'Delhi', 'Delhi', '110054', 'India', 'Near Vidhan Sabha Metro Station'),
+(34560987, '1', 'Avenue Road', 'Chickpet', 'Bangalore', 'Karnataka', '560002', 'India', 'Near Chickpet Metro Station'),
+(56782109, '16', 'Bhawani Singh Road', 'C-Scheme', 'Jaipur', 'Rajasthan', '302001', 'India', 'Near Rambagh Circle'),
+(67893210, '27', 'Raja Park', 'Near Gopalpura Bypass', 'Jaipur', 'Rajasthan', '302004', 'India', 'Near Raja Park Circle'),
+(78904321, '32', 'Sindhi Colony', 'Sindhi Camp', 'Jaipur', 'Rajasthan', '302001', 'India', 'Near Jaipur Railway Station'),
+(90126543, '5A', 'D-123', 'Green Park', 'New Delhi', 'Delhi', '110016', 'India', 'Near AIIMS'),
+(12347654, '23', '1st Floor, Juhu Lane', 'Andheri West', 'Mumbai', 'Maharashtra', '400058', 'India', 'Opposite to SNDT Women’s University'),
+(23458765, '1', 'Deshbandhu Road', 'Sukhdev Vihar', 'New Delhi', 'Delhi', '110025', 'India', 'Near Escorts Hospital'),
+(34569876, '12B', '1st Floor, Nalanda Building', 'Barakhamba Road', 'New Delhi', 'Delhi', '110001', 'India', 'Near Connaught Place'),
+(56782198, '87', 'Chandra Nagar Colony', 'Rasulgarh', 'Bhubaneswar', 'Odisha', '751010', 'India', 'Near Jayadev Vihar'),
+(67893209, '21', 'Sahid Nagar', 'Master Canteen', 'Bhubaneswar', 'Odisha', '751007', 'India', 'Near Raj Bhavan'),
+(78904320, '48', 'Jadavpur University', 'Salt Lake City', 'Kolkata', 'West Bengal', '700091', 'India', 'Near Tank No. 7'),
+(90126542, '9/2', 'Kuruvikkarambai Road', 'R S Puram', 'Coimbatore', 'Tamil Nadu', '641002', 'India', 'Near Brookefields Mall'),
+(12347653, '36', 'Krishna Street', 'T Nagar', 'Chennai', 'Tamil Nadu', '600017', 'India', 'Near T Nagar Bus Terminus'),
+(34569865, '7', 'Aundh Road', 'Vidya Nagar', 'Pune', 'Maharashtra', '411007', 'India', 'Near Ferguson College Road'),
+(56782087, '15', 'Sector 37', 'Kharghar', 'Navi Mumbai', 'Maharashtra', '410210', 'India', 'Near Utsav Chowk'),
+(67893198, '3', 'Sanjay Nagar', 'Saharanpur Road', 'Dehradun', 'Uttarakhand', '248001', 'India', 'Near Survey Chowk'),
+(78904309, '22', 'Shaheed Bhagat Singh Nagar', 'Nangal Road', 'Una', 'Himachal Pradesh', '174303', 'India', 'Near Chintpurni Temple'),
+(90126531, '45', 'Sector 11', 'Koparkhairane', 'Navi Mumbai', 'Maharashtra', '400709', 'India', 'Near D-Mart'),
+(12347642, '10', 'Vasai Station Road', 'Vasai West', 'Mumbai', 'Maharashtra', '401202', 'India', 'Near Vasai Fort'),
+(23458753, '15', 'MG Road', 'Saket', 'New Delhi', 'Delhi', '110017', 'India', 'Near Qutub Minar'),
+(34569864, '9', 'Nehru Place', 'Kailash Colony', 'New Delhi', 'Delhi', '110048', 'India', 'Opposite LSR College'),
+(56782086, '7', 'Jangpura', 'Mathura Road', 'New Delhi', 'Delhi', '110014', 'India', 'Near Apollo Hospital'),
+(67893197, '42', 'Park Street', 'Ballygunge', 'Kolkata', 'West Bengal', '700019', 'India', 'Near Forum Mall'),
+(78904308, '26', 'Chittaranjan Avenue', 'Barabazar', 'Kolkata', 'West Bengal', '700073', 'India', 'Near Koley Market'),
+(90126530, '11', 'Abids Road', 'Chirag Ali Lane', 'Hyderabad', 'Telangana', '500001', 'India', 'Near Charminar'),
+(12347641, '2', 'Rajaji Road', 'RS Puram', 'Coimbatore', 'Tamil Nadu', '641002', 'India', 'Near Gandhipuram Bus Stand'),
+(23458752, '8', 'SP Mukherjee Marg', 'Minto Road', 'New Delhi', 'Delhi', '110002', 'India', 'Near Delhi Gate'),
+(34569863, '17', 'Sahid Nagar', 'Nayapalli', 'Bhubaneswar', 'Odisha', '751007', 'India', 'Near ISKCON Temple'),
+(56782085, '22', 'Chakraberia Road', 'Bhowanipore', 'Kolkata', 'West Bengal', '700020', 'India', 'Near Victoria Memorial'),
+(67893196, '13', 'Raja Ram Mohan Roy Road', 'Cubbonpet', 'Bangalore', 'Karnataka', '560002', 'India', 'Near Tipu Sultan Palace'),
+(45678901, '6', 'Vasant Kunj Marg', 'Mahipalpur', 'New Delhi', 'Delhi', '110037', 'India', 'Near IGI Airport'),
+(45670974, '5', 'Gariahat Road', 'Lake Market', 'Kolkata', 'West Bengal', '700029', 'India', 'Near South City Mall'),
+(89015419, '14', 'Bhagwan Das Road', 'Connaught Place', 'New Delhi', 'Delhi', '110001', 'India', 'Near Palika Bazar'),
+(45670975, '19', 'MG Road', 'Camp', 'Pune', 'Maharashtra', '411001', 'India', 'Near MG Road Metro Station'),
+(89015420, '28', 'Church Street', 'Brigade Road', 'Bangalore', 'Karnataka', '560001', 'India', 'Near Garuda Mall'),
+(45670976, '1', 'Main Road', 'Sector 14', 'Faridabad', 'Haryana', '121007', 'India', 'Near Crown Plaza Hotel'),
+(89015431, '14A', 'Lajpat Nagar', 'Near Shiv Mandir', 'New Delhi', 'Delhi', '110024', 'India', 'Shiv Mandir'),
+(45670987, '49/1', 'Chinnasamy Mudali Street', 'Near Railway Station', 'Chennai', 'Tamil Nadu', '600002', 'India', 'Railway Station'),
+(89015432, '43', 'Mangal Pandey Nagar', 'Opposite Saharanpur Club', 'Saharanpur', 'Uttar Pradesh', '247001', 'India', 'Saharanpur Club'),
+(45671098, '11', 'Kancha Galli', 'Near Shivaji Nagar Bus Stand', 'Pune', 'Maharashtra', '411005', 'India', 'Shivaji Nagar Bus Stand'),
+(89012345, '152', 'Gol Pada', 'Near Bus Stop', 'Mumbai', 'Maharashtra', '400001', 'India', 'Bus Stop'),
+(10000001, '2/107', 'Jawahar Nagar', 'Near Axis Bank', 'Jaipur', 'Rajasthan', '302004', 'India', 'Axis Bank'),
+(10000002, '32/1', 'Rajaram Mohan Roy Road', 'Near Jagannath Temple', 'Kolkata', 'West Bengal', '700041', 'India', 'Jagannath Temple'),
+(10000003, '45', 'Gandhi Chowk', 'Near Bank of India', 'Bhopal', 'Madhya Pradesh', '462001', 'India', 'Bank of India'),
+(10000004, 'A-101', 'Rajendra Nagar', 'Opposite Mayur Vihar Phase 1', 'New Delhi', 'Delhi', '110060', 'India', 'Mayur Vihar Park'),
+(10000005, 'B-102', 'Lajpat Nagar', 'Near Lajpat Nagar Metro Station', 'New Delhi', 'Delhi', '110024', 'India', 'Central Market'),
+(10000006, 'C-103', 'GK-1', 'Near M-Block Market', 'New Delhi', 'Delhi', '110048', 'India', 'M-Block Market'),
+(10000007, 'D-104', 'Palam Vihar', 'Near Ansal Plaza', 'Gurgaon', 'Haryana', '122017', 'India', 'Ansal Plaza'),
+(10000008, 'E-105', 'Sushant Lok', 'Opposite Gold Souk', 'Gurgaon', 'Haryana', '122001', 'India', 'Gold Souk'),
+(10000009, 'F-106', 'Ballygunge', 'Near Gariahat Market', 'Kolkata', 'West Bengal', '700019', 'India', 'Gariahat Market'),
+(10000010, 'G-107', 'Kakkanad', 'Near Infopark', 'Kochi', 'Kerala', '682030', 'India', 'Infopark'),
+(10000011, 'H-108', 'Porvorim', 'Near Mall De Goa', 'Goa', 'Goa', '403521', 'India', 'Mall De Goa'),
+(10000012, '19A', 'Sector 15A', 'Near Mithaiwala', 'Faridabad', 'Haryana', '121007', 'India', 'Vijay Bank'),
+(10000013, '7', 'East Street', 'Vasanth Nagar', 'Bengaluru', 'Karnataka', '560052', 'India', 'Vasanth Nagar Playground'),
+(10000014, '19', 'Main Road', 'Rajiv Gandhi Nagar', 'Pune', 'Maharashtra', '411052', 'India', 'Rajiv Gandhi Flyover'),
+(10000015, '32', 'MG Road', 'Opposite Corporation Bank', 'Indore', 'Madhya Pradesh', '452001', 'India', 'Regal Talkies'),
+(10000016, '49', 'Nagpur Road', 'Jai Nagar', 'Nashik', 'Maharashtra', '422006', 'India', 'Kalika Mandir'),
+(10000017, '1/1A', 'Tiljala Road', 'Near KMC', 'Kolkata', 'West Bengal', '700046', 'India', 'Quest Mall'),
+(10000018, '14', 'Ravi Nagar', 'Near Shivaji Nagar', 'Nagpur', 'Maharashtra', '440010', 'India', 'Jaswant Tuli Mall'),
+(10000019, '301', 'Sudhama Nagar', 'Near St. Joseph School', 'Bengaluru', 'Karnataka', '560027', 'India', 'Sudhama Nagar Park'),
+(10000020, '2', 'Gandhi Road', 'Opposite SBI Bank', 'Visakhapatnam', 'Andhra Pradesh', '530001', 'India', 'Gandhi Market'),
+(10000021, '43', 'Gomti Nagar', 'Near Ram Manohar Lohia Park', 'Lucknow', 'Uttar Pradesh', '226010', 'India', 'Lohia Park'),
+(10000022, '34', 'Vidyaranyapura Main Road', 'Ganesha Block, Vidyaranyapura', 'Bangalore', 'Karnataka', '560097', 'India', 'Vidyaranyapura Bus Stop'),
+(10000023, '44/3', '14th Cross, 8th Main', 'Near Corporation Bank, Malleshwaram', 'Bangalore', 'Karnataka', '560003', 'India', 'Mantri Mall'),
+(10000024, '21', 'Bhakti Marg', 'Behind DAV Public School, Vaishali Nagar', 'Jaipur', 'Rajasthan', '302021', 'India', 'Nahargarh Fort'),
+(10000025, '12/2', 'MG Road', 'Opp. Hotel Taj Vivanta, Yerawada', 'Pune', 'Maharashtra', '411001', 'India', 'Shaniwar Wada'),
+(10000026, '5', 'Sarojini Naidu Road', 'Opposite City Center Mall, Ashok Nagar', 'Bhubaneswar', 'Odisha', '751007', 'India', 'Regional Museum of Natural History'),
+(10000027, '123', 'Poonamallee High Road', 'Near Ega Theatre, Kilpauk', 'Chennai', 'Tamil Nadu', '600010', 'India', 'Kilpauk Medical College and Hospital'),
+(10000028, '101', 'Park Street', 'Near The Park Hotel, Mullick Bazar', 'Kolkata', 'West Bengal', '700016', 'India', 'St. Pauls Cathedral'),
+(10000029, '14', 'Gomti Nagar Road', 'Near Dr Ram Manohar Lohia Hospital, Vibhuti Khand', 'Lucknow', 'Uttar Pradesh', '226010', 'India', 'Ambedkar Park'),
+(10000030, '8', 'Devi Mandir Road', 'Near SBI Bank, Nalasopara West', 'Mumbai', 'Maharashtra', '401203', 'India', 'Tungareshwar Wildlife Sanctuary'),
+(10000031, '22', 'Kanjiramattom Road', 'Near Kinfra Park, Kanjiramattom', 'Kochi', 'Kerala', '682311', 'India', 'Hill Palace Museum'),
+(10000032, '56/1', 'College Road', 'Near Patrakar Nagar, Nashik Road', 'Nashik', 'Maharashtra', '422101', 'India', 'Sula Vineyards'),
+(10000033, '1/1', 'Simpson Road', 'Near Lord Sinha Road, Bhowanipore', 'Kolkata', 'West Bengal', '700020', 'India', 'Indian Museum'),
+(10000034, '10', 'Karol Bagh Road', 'Opposite Jhandewalan Mata Mandir, Karol Bagh', 'New Delhi', 'Delhi', '110005', 'India', 'Gurudwara Bangla Sahib'),
+(10000035, '16', 'South End Road', 'Near Bangalore Medical College, Basavanagudi', 'Bangalore', 'Karnataka', '560004', 'India', 'Bull Temple'),
+(10000036, '123', 'Main Street', 'Apartment 1A', 'Mumbai', 'Maharashtra', '400001', 'India', 'Gateway of India'),
+(10000037, '456', '1st Cross Road', 'Flat 2B', 'Bengaluru', 'Karnataka', '560001', 'India', 'Vidhana Soudha'),
+(10000038, '789', 'Park Street', 'Unit 3C', 'Kolkata', 'West Bengal', '700001', 'India', 'Victoria Memorial'),
+(10000039, '321', 'Lake View Avenue', 'Suite 4F', 'Chennai', 'Tamil Nadu', '600001', 'India', 'Marina Beach'),
+(10000040, '654', 'Gandhi Nagar', 'House No. 5', 'Delhi', 'Delhi', '110001', 'India', 'India Gate'),
+(10000051, '10/A', 'Rajendra Nagar', 'Near Laxmi Chowk', 'Patna', 'Bihar', '800001', 'India', 'Rajendra Nagar Park');
+(10000052, '33/1', 'MG Road', 'Opposite City Centre Mall', 'Kolkata', 'West Bengal', '700001', 'India', 'Victoria Memorial');
+(10000053, '12', 'Kasturba Gandhi Marg', 'Near Khan Market Metro Station', 'New Delhi', 'Delhi', '110001', 'India', 'India Gate');
+(10000054, '1/1', 'M.G. Road', 'Opposite City Hall', 'Bengaluru', 'Karnataka', '560001', 'India', 'Cubbon Park');
+(10000055, '21', 'Jawaharlal Nehru Road', 'Near Victoria Memorial', 'Kolkata', 'West Bengal', '700001', 'India', 'Maidan');
+(10000056, '45', 'Aurobindo Marg', 'Near Hauz Khas Metro Station', 'New Delhi', 'Delhi', '110016', 'India', 'Hauz Khas Village');
+(10000057, '14', 'St. Marks Road', 'Near UB City', 'Bengaluru', 'Karnataka', '560001', 'India', 'Cubbon Park');
+(10000058, '6', 'Netaji Subhash Marg', 'Near Red Fort', 'New Delhi', 'Delhi', '110006', 'India', 'Red Fort');
+(10000059, '123', 'Taj Mahal Road', 'Near Taj Mahal', 'Agra', 'Uttar Pradesh', '282001', 'India', 'Taj Mahal');
+(10000060, '50', 'Linking Road', 'Near Bandra Station', 'Mumbai', 'Maharashtra', '400050', 'India', 'Bandra-Worli Sea Link');
+
+
+
+
+
+
+
